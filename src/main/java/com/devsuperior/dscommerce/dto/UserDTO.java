@@ -19,9 +19,6 @@ public class UserDTO {
 
     private List<String> roles = new ArrayList<>();
 
-    public UserDTO() {
-    }
-
     public UserDTO(User entity) {
         id = entity.getId();
         name = entity.getName();
